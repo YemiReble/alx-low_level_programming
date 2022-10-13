@@ -1,2 +1,2 @@
 #!/bin/bash
-tail c
+CFILE=main.c
