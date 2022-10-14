@@ -8,11 +8,11 @@ int main(void)
 	long long longlongintegerType;
 	float floatType;
 
-	printf("Size of char: %ld byte\n", sizeof(charType));
-	printf("Size of int: %ld bytes\n", sizeof(integerType));
-	printf("Size of long int: %ld bytes\n", sizeof(longintegerType));
-	printf("Size of long long int: %ld bytes\n", sizeof(longlongintegerType));
-	printf("Size of float: %ld bytes\n", sizeof(floatType));
+	printf("Size of char: %ld byte(s)\n", sizeof(charType));
+	printf("Size of int: %ld byte(s)\n", sizeof(integerType));
+	printf("Size of long int: %ld byte(s)\n", sizeof(longintegerType));
+	printf("Size of long long int: %ld byte(s)\n", sizeof(longlongintegerType));
+	printf("Size of float: %ld byte(s)\n", sizeof(floatType));
 
 	return (0);
 }
