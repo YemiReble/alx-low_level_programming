@@ -13,15 +13,15 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand();
+	n = rand(); 
 	RAND_MAX / 2;
 	/*printf("Input a number :");*/
 	scanf("%d", &n);
 	if (n > 0)
-		write(1, "%d is positive \n", 98);
+		printf("%d is positive \n", 98);
 	else if (n < 0)
-		write(1, "%d is negative \n", -98);
+		printf("%d is negative \n", -98);
 	else 
-		write(1, "%d is zero \n", 0);
+		printf("%d is zero \n", 0);
 	return (0);
 }
