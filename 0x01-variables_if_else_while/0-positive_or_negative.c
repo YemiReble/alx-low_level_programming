@@ -12,6 +12,7 @@ int main(void)
 {
 	int n;
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 	/*printf("Enter a number: ");*/
 	scanf("%d", &n);
@@ -24,6 +25,5 @@ int main(void)
 	}
 	else
 		printf("%d is positive\n", 98);
-
-    return (0);
+	return (0);
 }
