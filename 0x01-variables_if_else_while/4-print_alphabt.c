@@ -12,7 +12,7 @@ int main(void)
 {
 	int l;
 
-	for (l = 'a' ; l <= 'd' ; l++)
+	for (l = 'a' ; l <= 'z' ; l++)
 	{
 	if (l != 'e' && l != 'q')
 	{
