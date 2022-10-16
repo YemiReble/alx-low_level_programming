@@ -3,10 +3,10 @@
 #include <ctype.h>
 
 /**
-  *Main - Entry point
-  *
-  *Result Always 0 (Success)
-  *
+* main - Entry point
+*
+* Result Always 0 (Success)
+*
 */
 
 int main(void)
