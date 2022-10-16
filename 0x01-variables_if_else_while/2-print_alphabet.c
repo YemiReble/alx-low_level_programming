@@ -14,10 +14,10 @@ int main(void)
 {
 	int q;
 
-	for (q = 'A'; q <= 'B'; q++);
+	for (q = 'a'; q <= 'z'; q++)
 	{
-		int low = tolower(q);
-		putchar(low);
+		putchar(q);
+		putchar('\n');
 	}
 
 	return (0);
