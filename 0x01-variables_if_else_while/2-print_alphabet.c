@@ -17,7 +17,7 @@ int main(void)
 	for (q = 'a'; q <= 'z'; q++)
 	{
 		putchar(q);
-		putchar('\n');
+		/*putchar('\n');*/
 	}
 
 	return (0);
