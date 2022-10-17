@@ -17,7 +17,7 @@ int main(void)
 	l = 48;
 	while (l < 58)
 	{
-	e = l + 0;
+	e = l + 1;
 	while (e < 58)
 	{
 		putchar (de1);
