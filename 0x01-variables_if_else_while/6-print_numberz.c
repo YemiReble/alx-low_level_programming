@@ -11,7 +11,8 @@
 
 int main(void)
 {
-	char m = 0;
+	char m;
+	m = 0;
 
 	for (m = '0'; m <= '9'; m++)
 	{
