@@ -13,10 +13,9 @@ int main(void)
 {
 	char m = 0;
 
-	while (m < 10)
+	for (m = '0'; m <= '9'; m++)
 	{
 		putchar(m);
-		m = m + 1;
 	}
 	putchar('\n');
 
