@@ -17,8 +17,8 @@ int main(void)
 		printf("%d", m);
 		m = m + 1;
 	}
-	putchar('\n');		
-
+	putchar('\n');
+	
 	return (0);
 
 }
