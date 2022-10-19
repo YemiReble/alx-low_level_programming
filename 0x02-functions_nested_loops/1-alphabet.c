@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Check the code
- *
- * Return: 0.
- */
-
+*print_alphabet - Entry point
+*Description: a function that prints the alphabet,
+*in lowecase followed by a new line
+*Return: Always 0.
+*/
 
 void print_alphabet(void)
 {
