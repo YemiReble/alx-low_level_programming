@@ -9,11 +9,11 @@
 
 int _islower(int c)
 {
-	int i = 'a';
+	int m = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (m = 'a'; m <= 'z'; m++)
 	{
-		if (c == i)
+		if (c == m)
 		{
 			return (1);
 		}
