@@ -8,11 +8,11 @@
 int main(void)
 {
 	int i;
-	/*dont't delete it*/
+
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-
+	/*dont't delete it*/
 	while (i < 10)
 	{
 		putchar(i);
