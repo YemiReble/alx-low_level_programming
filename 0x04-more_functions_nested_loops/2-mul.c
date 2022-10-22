@@ -1,6 +1,6 @@
 #include "main.h"
 /*
-*function that multiplies two integers
+* mul - function that multiplies two integers
 * @a: fitst integer
 * @b: second integer
 * Return Always: 0
