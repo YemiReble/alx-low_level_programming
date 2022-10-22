@@ -3,7 +3,7 @@
 * mul - function that multiplies two integers
 * @a: fitst integer
 * @b: second integer
-* Return Always: 0
+* Return: a * b
 */
 
 int mul(int a, int b)
