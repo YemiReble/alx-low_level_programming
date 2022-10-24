@@ -3,7 +3,6 @@
 
 /**
  * print_rev - Writing a function that prints a string in reverse.
- * @m: inserted a new variable
  * @s: being the pointer to main
  * Return: viod
  */
