@@ -4,7 +4,6 @@
 /**
  * _puts - To print the value of *str from main
  * @str: string pointer.
- * @c: Array pointer.
  * Printing with putchar
  */
 
