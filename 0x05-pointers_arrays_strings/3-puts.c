@@ -3,6 +3,8 @@
 /**
  * _puts - To print the value of *str from main
  * @str: string pointer.
+ * @c: Array pointer.
+ * Printing with _putchar
  */
 
 void _puts(char *str)
