@@ -2,9 +2,9 @@
 
 /**
  * _strlen - Count the lenght of string, "string lenght"
+ * @s: being the pointer.
  * The str holding the initial string character
  * The len returning the lenght of the string
- * @s: being the pointer
  * Description: _strlen
  */
 
