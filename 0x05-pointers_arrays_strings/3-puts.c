@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _puts - To print the value of *str from main
@@ -14,7 +15,7 @@ void _puts(char *str)
 	
 	for (c = 0; str[c] != '\0'; c++)
 	{
-		_putchar(str[c]);
+		putchar(str[c]);
 	}
-	_putchar('\n');
+	putchar ('\n');
 }
