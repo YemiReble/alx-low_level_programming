@@ -5,7 +5,7 @@
  * @s: being the pointer.
  * The str holding the initial string character
  * The len returning the lenght of the string
- * Description: _strlen
+ * Return: int len
  */
 
 int _strlen(char *s)
