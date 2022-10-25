@@ -18,13 +18,12 @@ void puts_half(char *str)
 
 	if (m % 2 == 1)
 	{
-		l = (m -1) / 2;
+		l = (m - 1) / 2;
 		l += 1;
 	}
-
 	else
 	{
-		l = m /2;
+		l = m / 2;
 	}
 
 	for (; l < m; l++)
