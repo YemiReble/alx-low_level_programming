@@ -24,7 +24,7 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')
 			++j;
-		
+
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			tmp = s[i] - '0';
@@ -40,7 +40,7 @@ int _atoi(char *s)
 	}
 
 	if (m == 0)
+	return (0);
 
-		return (0);
 	return (k);
 }
