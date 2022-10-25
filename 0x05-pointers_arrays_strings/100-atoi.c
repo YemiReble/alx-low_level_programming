@@ -30,7 +30,7 @@ int _atoi(char *s)
 		{
 			break;
 		}
-		m++
+		m++;
 	}
 
 	y *= l;
