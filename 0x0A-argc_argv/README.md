@@ -19,13 +19,4 @@
 * The prototypes of all functions and the prototype of the function _putchar is included in the header file called main.h.
 * You are allowed to use the standard library.
 
-'''
-argc & argv
-
-if(argc)
-{
-	execute the following block of code.
-}
-
-'''
 <end of instruction>
