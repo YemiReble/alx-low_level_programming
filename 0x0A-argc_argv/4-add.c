@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
-  * Number - Cheking the condition of argument valuse
+  * isNumber - Cheking the condition of argument valuse
   * @str: Pointer to holds numubers
   * Return: nothing
   */
@@ -12,14 +12,14 @@
 int isNumber(char *str)
 {
 	int j = strlen(str);
-	
+
 	while (j--)
 	{
 		if (str[j] > 47 && str[j] < 58)
 			continue;
 		return (0);
 	}
-	
+
 	return (1);
 }
 
