@@ -12,4 +12,4 @@ At the end of this project, I am expected to be able to explain to anyone, witho
 * How to use **valgrind** to check for memory leak
 
 # More Info
-* You do not have to learn about **calloc** and **realloc**.
+* **calloc** and **realloc**.
