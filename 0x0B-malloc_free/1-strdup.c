@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-  * strdup - function that returns a pointer to a newly
+  * _strdup - function that returns a pointer to a newly
   * allocated space in memory
   * @str: being the variable to the string called in main
   * The pointer (variable 'alx') in this code is just for fun,
