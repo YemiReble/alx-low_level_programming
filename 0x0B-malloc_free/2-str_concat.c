@@ -6,7 +6,7 @@
   * @s1: pointer variable for Betty
   * @s2: pointer variable for Holberton
   *
-  * Return: 
+  * Return: bett
   */
 
 char *str_concat(char *s1, char *s2)
@@ -25,7 +25,7 @@ char *str_concat(char *s1, char *s2)
 	else
 		while (*(s2 + size2++))
 			;
-	
+
 	size0 = size1 + size2 - 1;
 
 	bett = malloc(size0 * sizeof(char));
