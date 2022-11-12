@@ -14,7 +14,6 @@ char **strtow(char *str)
 	while (*(str + i))
 	{
 		if (*(str + i + 1) == ' ' || *(str + i + 1) == '\0')
-			wc++;
 			++i;
 	}
 	if (wc == 0)
