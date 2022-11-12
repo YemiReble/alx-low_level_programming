@@ -13,9 +13,9 @@ char **strtow(char *str)
 		return (NULL);
 	while (*(str + i))
 	{
-	if (*(str + i + 1) == ' ' || *(str + i + 1) == '\0')
-		wc++;
-		++i;
+		if (*(str + i + 1) == ' ' || *(str + i + 1) == '\0')
+			wc++;
+			++i;
 	}
 	if (wc == 0)
 		return (NULL);
@@ -35,7 +35,8 @@ char **strtow(char *str)
 			for (; j - 1 >= 0; j--)
 				free(newStr[j]);
 			free(newStr);
-			return (NULL); }
+			return (NULL); 
+		}
 		for (k = 0; k < wlen; ++k)
 			*(temp + k) = *str++;
 		*(temp + k) = '\0';
