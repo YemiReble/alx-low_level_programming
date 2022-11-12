@@ -13,8 +13,7 @@ char **strtow(char *str)
 		return (NULL);
 	while (*(str + i))
 	{
-		if (*(str + i) != ' ')
-			if (*(str + i + 1) == ' ' || *(str + i + 1) == '\0')
+		if (*(str + i + 1) == ' ' || *(str + i + 1) == '\0')
 				wc++;
 			++i;
 	}
