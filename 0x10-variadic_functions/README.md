@@ -1,13 +1,11 @@
-# 0x0F. C - Function pointers
+# 0x10. C - Variadic functions
 
-* Function Pointer in C
-* Pointers to functions
-* Function Pointers in C / C++
-* why pointers to functions?
-* Everything you need to know about pointers in C
+* stdarg.h
+* Variadic Functions
+* Const Keyword
 
 ## Learning Objectives
 
-1. What are function pointers and how to use them
-1. What does a function pointer exactly hold
-1. Where does a function pointer point to in the virtual memory
+1. What are variadic functions
+1. How to use va_start, va_arg and va_end macros
+1. Why and how to use the const type qualifier
