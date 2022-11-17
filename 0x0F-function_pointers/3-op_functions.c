@@ -3,8 +3,7 @@
 #include <stdlib.h>
 
 /**
-  * op_functions - program that performs simple operations.
-  * op_add - For Addition
+  * op_add - add two integers
   * @a: First Integer
   * @b: Second Integer
   *
@@ -17,10 +16,11 @@ int op_add(int a, int b)
 }
 
 /**
-  * op_sub - For Subtractions
+  * op_sub - return the difference of two integer
   * @a: First Integer
   * @b: Second Integer
-  * Retrun: difference
+  *
+  * Return: difference
   */
 
 int op_sub(int a, int b)
@@ -29,10 +29,11 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - For Multiplication
+ * op_mul - multiply two integers
  * @a: First Integer
  * @b: Second Intege
- * Retrun: product
+ *
+ * Return: product
  */
 int op_mul(int a, int b)
 {
@@ -40,10 +41,11 @@ int op_mul(int a, int b)
 }
 
 /**
-  * op_div - For Division
+  * op_div - divide
   * @a: First Integer
   * @b: Second Integer
-  * Retrun: quotient
+  *
+  * Return: quotient
   */
 
 int op_div(int a, int b)
@@ -56,10 +58,11 @@ int op_div(int a, int b)
 }
 
 /**
-  * op_mod - For Modul
+  * op_mod - Modul
   * @a: First Integer
   * @b: Second Integer
-  * Retrun: remainder
+  *
+  * Return: remainder
   */
 int op_mod(int a, int b)
 {
