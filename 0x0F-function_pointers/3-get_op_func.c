@@ -19,9 +19,9 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	
+
 	int i;
-	
+
 	while (ops[i].op)
 	{
 		if (*s == *(ops[i].op) && *(s + 1) == '\0')

@@ -4,16 +4,11 @@
 
 /**
   * op_functions - program that performs simple operations.
-  *
   * op_add - For Addition
-  * op_sub - For Subtraction
-  * op_mul - For Multiplication
-  * op_div - For Division
-  * op_mod - For Modulus (Remainder)
   * @a: First Integer
   * @b: Second Integer
   *
-  * Return: Always Success
+  * Return: sum
   */
 
 int op_add(int a, int b)
@@ -25,7 +20,7 @@ int op_add(int a, int b)
   * op_sub - For Subtractions
   * @a: First Integer
   * @b: Second Integer
-  * Retrun: Always Success
+  * Retrun: difference
   */
 
 int op_sub(int a, int b)
@@ -37,7 +32,7 @@ int op_sub(int a, int b)
  * op_mul - For Multiplication
  * @a: First Integer
  * @b: Second Intege
- * Retrun: Always Success
+ * Retrun: product
  */
 int op_mul(int a, int b)
 {
@@ -48,14 +43,14 @@ int op_mul(int a, int b)
   * op_div - For Division
   * @a: First Integer
   * @b: Second Integer
-  * Retrun: Always Success
+  * Retrun: quotient
   */
 
 int op_div(int a, int b)
 {
 	if (b != 0)
 		return (a / b);
-	
+
 	printf("Error\n");
 	exit(100);
 }
@@ -64,13 +59,13 @@ int op_div(int a, int b)
   * op_mod - For Modul
   * @a: First Integer
   * @b: Second Integer
-  * Retrun: Always Success
+  * Retrun: remainder
   */
 int op_mod(int a, int b)
 {
 	if (b != 0)
 		return (a % b);
-	
+
 	printf("Error\n");
 	exit(100);
 }
