@@ -27,8 +27,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (*head == NULL)
 		*head = new;
-	/*Checking if otherwise. With the above code, I was only able\
-	  to generate one name :(*/
+	/*Checking if otherwise*/
 	else
 	{
 		while (lastNode->next != NULL)
