@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
-  * print_str - check the code
+  * print_str - print before main function is executed.
+  * lists.h file contains the wired prototype that made this code work
   *
   * Return: strings
   */
