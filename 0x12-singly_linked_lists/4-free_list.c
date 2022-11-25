@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-  * print_list - function that prints all the elements of a list_t list
+  * free_list - a function that frees a list_t list.
   * @head: Linked list pointer
   *
   * Return: notithing, just free some memory.
