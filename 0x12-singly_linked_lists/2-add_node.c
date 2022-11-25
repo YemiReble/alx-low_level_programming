@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-  * add_node - function that prints all the elements of a list_t list.
+  * add_node - function that adds a new node at the beginning of a list_t list..
   * @head: pointer to nodes
   * @str: pointer to Linked_list
   *
