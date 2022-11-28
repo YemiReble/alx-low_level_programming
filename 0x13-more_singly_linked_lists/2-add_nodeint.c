@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * add_nodesint - function that adds a new node at the 
+ * add_nodeint - function that adds a new node at the
  * beginning of a listint_t list.
  * @head: pointter to linked lists
- * @n: 
+ * @n: the integer to return to stdout
  *
  * Return: the address of the new element, or NULL if it failed
  */
