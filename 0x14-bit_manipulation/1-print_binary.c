@@ -19,13 +19,13 @@ void print_binary(unsigned long int n)
 		count++;
 	}
 	if (!count)
-		putchar('0');
+		_putchar('0');
 	while (count)
 	{
 		rep = n >> --count;
 		if (rep & 1)
-			putchar('1');
+			_putchar('1');
 		else
-			putchar('0');
+			_putchar('0');
 	}
 }
