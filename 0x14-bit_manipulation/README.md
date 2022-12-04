@@ -41,16 +41,18 @@ int main ()
 Unsing this command **lscpu | head**
 Displays the following
 
-Architecture:                    x86_64
-CPU op-mode(s):                  32-bit, 64-bit
-Byte Order:                      Little Endian
-Address sizes:                   48 bits physical, 48 bits virtual
-CPU(s):                          2
-On-line CPU(s) list:             0,1
-Thread(s) per core:              1
-Core(s) per socket:              2
-Socket(s):                       1
-NUMA node(s):                    1
+| Description			| Test Text     			|
+| :---				|				---:	|
+| Architecture:                 | x86_64				|
+| CPU op-mode(s):               | 32-bit, 64-bit			|
+| Byte Order:                   | Little Endian				|
+| Address sizes:                | 48 bits physical, 48 bits virtual	|
+| CPU(s):                       | 2					|
+| On-line CPU(s) list:          | 0,1					|
+| Thread(s) per core:           | 1					|
+| Core(s) per socket:           | 2					|
+| Socket(s):                    | 1					|
+| NUMA node(s):                 | 1					|
 
 
 _Have fun looking arround_
