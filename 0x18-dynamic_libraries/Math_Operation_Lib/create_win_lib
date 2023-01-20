@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc gigamill.c -c -fPIC
+gcc *.o -shared -o libgigamill.so
