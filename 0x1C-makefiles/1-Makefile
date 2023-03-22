@@ -8,6 +8,6 @@
 #SRC: the .c files
 
 $(CC) = gcc
-all: main.c school.c -o school
-SRC: 
-	(CC) main.c school.c -o school
+all: main.c school.c
+SRC: main.c school.c
+	$(CC) main.c school.c -o school
