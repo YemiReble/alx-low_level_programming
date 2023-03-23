@@ -9,5 +9,9 @@
 
 $(CC) = gcc
 all: main.c school.c
+	$(CC) main.o school.o -o school
+
 SRC: main.c school.c
-	$(CC) main.c school.c -o school
+
+Clean:
+	rm *.o school
