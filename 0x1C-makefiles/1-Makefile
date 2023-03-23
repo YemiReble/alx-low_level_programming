@@ -7,11 +7,10 @@
 #CC: the compiler to be used
 #SRC: the .c files
 
-$(CC) = gcc
-all: main.c school.c
-	$(CC) main.o school.o -o school
-
+CC = gcc
 SRC: main.c school.c
+all: $(SRC)
+	$(CC) $(SRC) -o school
 
 Clean:
 	rm *.o school
