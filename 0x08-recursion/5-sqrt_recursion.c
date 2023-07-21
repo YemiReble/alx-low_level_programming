@@ -3,6 +3,8 @@
  * _sqrt_recursion - function that returns the natural square root of a number
  * @n: Number param passed to function
  *
+ * This function does not work with numbers like (17) as sqrt of 17 is 4.1...
+ *
  * Return: Square Root
  */
 int _sqrt_recursion(int n)
